@@ -1,0 +1,69 @@
+.iziToast>.iziToast-close {
+    background: url(../public/close.svg) no-repeat 50% 50%;
+    transition: opacity 250ms linear;
+}
+
+.input-datetime {
+    outline: none;
+    margin-bottom: 32px;
+    margin-right: 8px;
+    padding: 8px 16px;
+    width: 272px;
+    height: 40px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    transition: border 250ms linear;
+
+    &:hover {
+        border: 1px solid #000000;
+    }
+
+    &:focus {
+        border: 1px solid #4e75ff;
+    }
+}
+
+.start-btn {
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: #4e75ff;
+    color: #fff;
+    transition: background-color 250ms linear, color 250ms linear;
+
+    &:hover {
+        background-color: #6c8cff;
+    }
+
+    &:disabled {
+        background-color: #cfcfcf;
+        color: #989898;
+    }
+}
+
+.timer {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    width: 346px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+}
+
+.value {
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+.label {
+    color: #2e2f42;
+}

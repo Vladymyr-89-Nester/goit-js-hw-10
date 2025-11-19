@@ -1,0 +1,85 @@
+.form {
+    margin: 0 auto;
+    width: 392px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.label-delay {
+    margin-bottom: 16px;
+    display: block;
+    text-align: left;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+.input-delay {
+    outline: none;
+    margin-top: 8px;
+    padding: 8px 16px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    transition: border 250ms linear;
+
+    &:hover {
+        border: 1px solid #000000;
+    }
+
+    &:focus {
+        border: 1px solid #4e75ff;
+    }
+}
+
+fieldset {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 24px 0;
+    padding-top: 15px;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-bottom: 8px;
+    border-radius: 4px;
+    border: 1px solid #808080;
+    transition: border 250ms linear;
+
+    &:hover {
+        border: 1px solid #000000;
+    }
+
+    &:active {
+        border: 1px solid #4e75ff;
+    }
+}
+
+fieldset legend {
+    text-align: left;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+fieldset label {
+    display: flex;
+    gap: 8px;
+    color: #2e2f42;
+}
+
+.promise-btn {
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: #4e75ff;
+    color: #fff;
+    transition: background-color 250ms linear, color 250ms linear;
+
+    &:hover {
+        background-color: #6c8cff;
+    }
+}
