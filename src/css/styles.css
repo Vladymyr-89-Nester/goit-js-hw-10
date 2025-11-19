@@ -21,3 +21,7 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+.list-none {
+  display: none;
+}
